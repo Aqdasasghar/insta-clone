@@ -31,7 +31,7 @@ function Signup() {
       const user = await FacebookAuth();
       console.log("facebook user: ", user);
   
-      router.push('/mainDashboard');
+      router.push('/mainDgitashboard');
     } catch (error) {
       console.error("Facebook authentication error:", error);
       alert("Facebook authentication failed: " + error.message);
